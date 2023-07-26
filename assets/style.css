@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #252525;
+}
+
+.inicio {
+  display: flex;
+  align-items: center;
+  border: blue solid;
+}
+
+h1 {
+  display: flex;
+  color: #ffffff;
+}
+
+.pata {
+  width: 5vw;
+  padding: 10px;
+}
+
+.redes {
+  width: 15vw;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.PrimeiraSessao {
+  display: flex;
+}
+
+.QuartaSessao {
+  padding: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+}
+
+.QuartaSessao p {
+  display: flex;
+  font-size: 30px;
+  color: #fd6a9a;
+}
+
+footer {
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  color: #ffffff;
+  background-color: #eb4a7b;
+  border: blue solid;
+}
+
+section h3 {
+  padding: 20px;
+  text-align: left;
+  display: flex;
+}
