@@ -37,7 +37,40 @@ h1 {
 }
 
 .PrimeiraSessao {
+  height: 100vh;
   display: flex;
+  justify-content: center;
+  background-size: 100% 100%;
+  background-image: url("Grupo\ 486.png");
+  background-repeat: no-repeat;
+}
+
+.PrimeiraSessao h2 {
+  font-size: 50px;
+}
+
+.PrimeiraSessao div {
+  padding: 70px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.pata2 {
+  padding-top: 40px;
+}
+
+.SegundaSessao {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-size: 100% 100%;
+  background-image: url("Interseção\ 16.png");
+  background-repeat: no-repeat;
+}
+
+.SegundaSessao div {
+  width: 50vw;
+  border: blue solid;
 }
 
 .QuartaSessao {
@@ -57,14 +90,9 @@ h1 {
 footer {
   padding: 50px;
   display: flex;
+  text-align: start;
   justify-content: space-evenly;
   color: #ffffff;
   background-color: #eb4a7b;
   border: blue solid;
-}
-
-section h3 {
-  padding: 20px;
-  text-align: left;
-  display: flex;
 }
